@@ -39,7 +39,6 @@
 % Opções da classe memoir
     12pt,                     % Tamanho da fonte
     a4paper,                  % Tamanho do papel.
-    sumario=tradicional,      % Seleciona o sumário tradicional
 % Opções do pacote babel
     brazil,                   % Idioma do documento
 }{abntex2}
@@ -212,24 +211,21 @@
 \renewcommand{\ABNTEXpartfont}{\normalfont}
 \renewcommand{\ABNTEXpartfontsize}{\ABNTEXchapterfontsize}
 
-\renewcommand{\ABNTEXsectionfont}{\normalfont}
+\renewcommand{\ABNTEXsectionfont}{\normalfont\bfseries}
 \renewcommand{\ABNTEXsectionfontsize}{\normalsize}
 
-\renewcommand{\ABNTEXsubsectionfont}{\normalfont}
+\renewcommand{\ABNTEXsubsectionfont}{\normalfont\bfseries}
 \renewcommand{\ABNTEXsubsectionfontsize}{\normalsize}
 
-\renewcommand{\ABNTEXsubsubsectionfont}{\normalfont}
+\renewcommand{\ABNTEXsubsubsectionfont}{\normalfont\bfseries}
 \renewcommand{\ABNTEXsubsubsectionfontsize}{\normalsize}
 
-\renewcommand{\ABNTEXsubsubsubsectionfont}{\normalfont}
+\renewcommand{\ABNTEXsubsubsubsectionfont}{\normalfont\bfseries}
 \renewcommand{\ABNTEXsubsubsubsectionfontsize}{\normalsize}
 
 % #########################################################
 % Sumário
 % #########################################################
-
-% Travessão no sumário para apêndices e anexos
-\renewcommand{\cftchapteraftersnum}{\hfill\textendash\hfill}
 
 % Insere espaço entre os itens do sumário de diferentes capítulos
 \setlength{\cftbeforechapterskip}{1.0em \@plus\p@}
