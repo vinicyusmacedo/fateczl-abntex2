@@ -31,7 +31,7 @@
 \usepackage{amsfonts, amssymb, amsmath}                     % Fontes e símbolos matemáticos
 \usepackage[algoruled, portuguese]{algorithm2e}             % Permite escrever algoritmos em português
 %\usepackage[scaled]{helvet}                                % Usa a fonte Helvetica
-\usepackage{times}                                          % Usa a fonte Times
+%\usepackage{times}                                         % Usa a fonte Times
 %\usepackage{palatino}                                      % Usa a fonte Palatino
 %\usepackage{lmodern}                                       % Usa a fonte Latin Modern
 \usepackage[bottom]{footmisc}                               % Mantém as notas de rodapé sempre na mesma posição
@@ -46,4 +46,5 @@
 % ####################################################
 % Fonte similar a Arial (Helvetica)
 % ####################################################
-\renewcommand*\familydefault{\sfdefault}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
