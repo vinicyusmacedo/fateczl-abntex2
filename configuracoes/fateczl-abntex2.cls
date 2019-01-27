@@ -41,6 +41,10 @@
     a4paper,                  % Tamanho do papel.
 % Opções do pacote babel
     brazil,                   % Idioma do documento
+    chapter=TITLE, % títulos de capítulos convertidos em letras maiúsculas
+    section=TITLE, % títulos de seções convertidos em letras maiúsculas
+    subsection=TITLE, % títulos de subseções convertidos em letras maiúsculas
+    subsubsection=TITLE, % títulos de subsubseções em letras maiúsculas
 }{abntex2}
 
 \ProcessOptions\relax
